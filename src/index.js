@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import Button from './component/button';
+import ButtonHandler from './component/buttonhandler';
+import AlertButton from './component/buttonprops';
+import Toolbar from './component/buttontoolbar';
+import App from './component/buttonnaming';
+import Toolbar1 from './component/buttonpropagasi';
+import Signup from './component/buttontext';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Button />
+    <ButtonHandler />
+    <AlertButton />
+    <Toolbar />
     <App />
+    <Toolbar1 />
+    <Signup />
   </React.StrictMode>
 );
 
