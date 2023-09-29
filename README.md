@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+![image](https://github.com/syahdana2/latihanbuttonevent/assets/144450729/f3ef1597-6f61-453e-ad9b-a24aec9dd8c1)
+1. Fungsi handleClick dalam kode adalah fungsi JavaScript yang digunakan untuk menangani peristiwa klik (click event) pada tombol. Fungsi ini akan dipanggil ketika tombol tersebut diklik oleh pengguna.
+2. HandleClick juga disebut dengan event handler, umumnya untuk memberi nama event handler dengan format handle, diikuti oleh nama event. Contoh seperti onClick={handleClick}, onMouseEnter={handleMouseEnter}, dan lain sebagainya.
+3. Event handler dapat dioper pada komponen karena menggunakan props. Dengan mendeklarasikan sebuah event handler dalam sebuah induk dan mengopernya sebagai prop ke suatu anak komponen
+4. Event dapat berpropagasi, contohnya props pada anak induk setelah dijalankan akan otomatis manjalankan pada props induk. Gunakan e.stopPropagation() untuk mencegah terjadinya Event propagasi atas
+5. e.preventDefault() digunakan untuk menghentikan perilaku bawaan (default) dari suatu peristiwa (event) tertentu. contohnya Ketika pengguna mengklik tautan (link) dalam halaman web, peristiwa klik (click event) akan terjadi secara default, dan halaman akan menavigasikan ke URL yang diarahkan oleh tautan tersebut. Jika Anda ingin mencegah navigasi tersebut dan melakukan sesuatu yang berbeda ketika tautan diklik (misalnya, menampilkan informasi dalam modul), Anda dapat menggunakan e.preventDefault() untuk menghentikan navigasi default.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   Challenge:
+   1. ![image](https://github.com/syahdana2/latihanbuttonevent/assets/144450729/f47d04ed-f1e9-4978-a430-492b5576738d)
+      Penulisan handleClick salah
+   2. ![image](https://github.com/syahdana2/latihanbuttonevent/assets/144450729/079f6abb-28d6-4013-b2fa-83a71f1c1ab3)
+      adanya propagation yaitu event menghitung, maka e.stopPropagtion() untuk mencegah event induk terjadi
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
